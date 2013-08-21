@@ -1,0 +1,42 @@
+name: MhoEssentials
+main: fr.aidactif.mhoessentials.MhoEssentials
+version: 1.2
+author: xDakota
+commands:
+  mho:
+    description: Commande principale du plugin.
+  ici:
+    description: Envoi dans le chat votre position.
+  taunt:
+    description: Envoi un taunt dans le chat.
+  played:
+    description: Donne le temps de connexion.
+  aide:
+    description: Envoi au staff une demande d aide.
+  chat:
+    description: Gestion du chat.
+permissions:
+  mhoessentials.seetaunt:
+    description: Voir les taunts en murmures.
+    default: false
+  mhoessentials.seeaide:
+    description: Voir les demandes d aide.
+    default: false
+  mhoessentials.chat:
+    description: Gestion du chat.
+    default: false
+  mhoessentials.chatbypass:
+    description: Bypass du chat.
+    default: false
+  mhoessentials.npcbypass:
+    description: Bypass d utilisation npc wand.
+    default: false
+  mhoessentials.enchantbypass:
+    description: Bypass des enchantements.
+    default: false
+  mhoessentials.dropbypass:
+    description: Bypass des drops a la mort.
+    default: false
+  mhoessentials.nodrop:
+    description: Empeche les drops a la mort.
+    default: false

@@ -1,0 +1,34 @@
+MhoEssentials:
+  Messages:
+    # Certains messages ont un espace avant leur début ! A respecter !
+    world: "sur Heliora"
+    world_donjon: "dans un donjon"
+    world_mine: "sur la map mine"
+    world_other: "sur un monde inconnu"
+    unknown_pseudo: " Il n'y a personne de ce pseudo connecté."
+    cooldown: " Cooldown sur la commande, merci de patienter."
+    enchant: " Enchantement interdit !"
+    permission: " Vous n'avez pas la permission d'effectuer cette commande."
+    chat: " Utilisation /chat <on|evil|off>"
+    chat_on: " Le silence est demandé !"
+    chat_already_on: " Le chat est déjà fermé."
+    chat_already_off: " Le chat est déjà ouvert."
+    chat_already_evil: " Le chat est déjà fermé en mode evil."
+    chat_bug: " Problème avec le fichier de configuration."
+    chat_off: " La parole est rétablie !"
+    chat_disable: " Vous ne pouvez pas parler."
+    chat_disable_join: " Le chat est actuellement fermé."
+    chat_dead: " est mort(e). Il faut savoir se taire."
+    chat_nodead: " Ca fait mal, hein !"
+  Cooldowns:
+    # Cooldown en milisecondes - 20000 = 20 sec
+    cooldown_taunt: 20000
+    cooldown_taunt_player: 20000
+  Chat:
+    # Ne pas toucher
+    chatstatut: chatoff
+  Taunts:
+    Liste:
+       -XDemonic
+       -Caveman
+       -Blades
